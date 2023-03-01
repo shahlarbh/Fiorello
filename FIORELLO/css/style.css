@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: light;
+    src: url(/fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: medium;
+    src: url(/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: regular;
+    src: url(/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: bold;
+    src: url(/fonts/Montserrat-SemiBold.ttf);
+}
+
+.header{
+    padding: 3rem 7rem;
+}
+
+.logo{
+    float: left;
+    width: 15%;
+    margin-right: 4rem;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.navbar{
+    width: 70%;
+    text-align: center;
+    display: inline;
+}
+
+.navbar a{
+    margin-left: 2.5rem;
+    text-decoration: none;
+    font-family: medium;
+    color: #1B1B1B;
+    transition: 1s;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+.navbar .main{
+    text-decoration: underline;
+}
+
+.icons{
+    float: right;
+    width: 15%;
+    margin-left: 3rem;
+}
+
+.icons i{
+    padding-right: 1.5rem;
+    cursor: pointer;
+}
+
+span{
+    font-family: medium;
+    cursor: pointer;
+}
+
+.box{
+    width: 23%;
+    margin: 0 calc(8%/8) 10px;
+    float: left;
+    cursor: pointer;
+}
+
+.box .image img{
+    width: 100%;
+}
+
+.body{
+    padding: 0 6rem;
+}
+
+.context{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.first{
+    font-family: regular;
+    font-size: 15px;
+    padding-top: 1rem;
+    padding-bottom: 0.2rem;
+    color: #1B1B1B;
+}
+
+.second{
+    font-family: light;
+    font-size: 14px;
+    color: #AFAFAF;
+}
+
+.context .inlinespan{
+    font-family: light;
+    font-size: 14px;
+    color: #AFAFAF;
+    text-decoration: line-through;
+}
+
+.image{
+    transition: 0.5s;
+}
+
+.image:hover{
+    transform: scale(1.05);
+}
+
+.clear{
+    clear: both;
+}
+
+.text h1{
+    font-family: regular;
+    font-size: 30px;
+    color: #2B2B2B;
+    margin-top: 3rem;
+    margin-bottom: 1.6rem;
+    text-align: center;
+}
+
+.text p{
+    font-family: light;
+    color: #6D6A6A;
+    font-size: 17px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.demo{
+    margin-bottom: 3.6rem;
+}
+
+.person{
+    float: left;
+    width: 23%;
+    margin-right: 1.25rem;
+    padding-bottom: 5rem;
+    cursor: pointer;
+}
+
+.person .photo img{
+    width: 100%;
+    transition: 0.8s;
+}
+
+.worker{
+    padding: 0 10rem;
+}
+
+.info{
+    text-align: center;
+}
+
+.fullname{
+    font-family: regular;
+    font-size: 15px;
+    padding-top: 1rem;
+    padding-bottom: 0.2rem;
+    color: #1B1B1B;
+}
+
+.position{
+    font-family: light;
+    font-size: 14px;
+    margin-top: 0.6rem;
+    color: #AFAFAF;
+}
+
+.photo img:hover{
+    transform: scale(1.05);
+}
